@@ -66,7 +66,7 @@ listeProd.forEach(element => {
         <td data-title="Nationalité">${element.tel}</td>
         <td data-title="Date création">${element.produit}</td>
         <td data-title="Date création">${element.montant}</td>
-         <td class="bl"><button class="edit">Editer</button><button class="bannir">bannir</button></td>
+         <td class="bl"><button class="edit">Editer</button> <button class="bannir">bannir</button></td>
         
         
     </tr>
