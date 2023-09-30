@@ -4,6 +4,7 @@ document .addEventListener("DOMContentLoaded", ()=>{
         let gestion = JSON.parse(localStorage.getItem('gestion'))
         let form = document.querySelector('.log')
         let btnlog = document.querySelector('.btnsub')
+        let msg = document.querySelector('.msg')
         form.addEventListener('submit', (e)=>{
             e.preventDefault()
             console.log('ok')
