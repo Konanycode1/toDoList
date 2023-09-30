@@ -4,10 +4,16 @@ document.addEventListener("DOMContentLoaded", ()=>{
     let inserForm = document.querySelector('.inserForm')
     let btnEnr = document.getElementById('btnEnr')
     let msg = document.querySelector('.msg')
-
+    let btndes = document.querySelector('.btndes')
+    console.log(session)
    if(session == null){
     window.location.href = "../index.html"
    }
+   btndes.addEventListener('click',()=>{
+        localStorage.removeItem("sessionGes")
+        window.location.href = "../index.html"
+
+   })
    
    user.textContent = session.nom
    inserForm.addEventListener("submit",(e)=>{
@@ -48,10 +54,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
         }
    })
 let tbody = document.querySelector("tbody")
-let listeProd = JSON.parse(localStorage.getItem("listeClient")) || []
+console.log(tbody)
+let listeProd = JSON.parse(localStorage.getItem("listeClient")) 
+console.log(listeProd)
 
 listeProd.forEach(element => {
-    if(element.session == session.nom && element.key == session.key ){
+    if(element.session == session.nom && element.key== session.tel ){
         let tex = `
          <tr>
         <td data-title="Nom">${element.nom}</td>
@@ -60,14 +68,9 @@ listeProd.forEach(element => {
         <td data-title="Date création">${element.montant}</td>
     </tr>
         `
-        tbody.append(tex)
+        tbody.innerHTML += tex
     }
     
 });
-
-
-
-
-
 
 })
