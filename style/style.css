@@ -238,7 +238,7 @@ table{
     font-weight: bold;
     white-space: nowrap;
     text-align:left;
-    content: attr(data-title)
+    /* content: attr(data-title) */
         
         }
     }
