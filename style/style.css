@@ -1,6 +1,6 @@
 :root{
-    --btnCOlor: #00BF63;
-    ---Vert: #3fe016;
+    --btnCOlor: #e7e7e7;
+    ---Vert: #785E75;
    ---bg: #ECFDFF;
    /* Debut Accueil page css*/
    /* ---bg: black; */
@@ -16,13 +16,19 @@
    li{
        border-color: white;
    } */
-   
+   h5, h3, p{
+    color: white;
+   }
    body{
        background-color:var(---bg) ;
        margin: 0;
        padding: 0;
        box-sizing: border-box;
        font-family: 'Sansita', sans-serif;
+       background-image: url('../img/bg.jpg');
+       background-size: cover;
+        background-color: rgba(22, 27, 29, 0.7);
+        background-blend-mode: soft-light;
    }
  
    
@@ -194,7 +200,7 @@ table{
     
     tbody tr:nth-child(even) {
         
-    background-color: #5c995e
+    background-color:var(---bg)
         
     }
         
