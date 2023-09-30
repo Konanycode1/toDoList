@@ -137,6 +137,7 @@
 .blocdes .btndes{
     height:2rem;
     background-color: var(---Vert);
+    color: white;
 
 }
 .insert{
@@ -194,7 +195,9 @@ table{
     color: white
     
     }
-        
+       td{
+        color: #06b7ab;
+       } 
     
     th,td{padding:8px 0}
     
