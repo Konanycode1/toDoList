@@ -153,9 +153,23 @@
     width: 15rem;
     height: 2rem;
     border: none;
-    background-color: #00BF63;
+    background-color:var(---Vert);
+    color: white;
 }
-
+.edit{
+    background-color: blue;
+    color: white;
+    width: 12rem;
+}
+.bannir{
+    background-color: red;
+}
+.bl button{
+    width: 6rem;
+    height: 2rem;
+    border:none;
+    color:white;
+}
 table{
 	
     margin: 1rem auto;
