@@ -110,11 +110,129 @@
     color: red;
    }
    /* Fin Login page css*/
-   /* Fin Music page css*/
-   /* .music .heade{
-       display: flex;
-       justify-content: space-between;
-       margin-top: 10px;
-   } */
+   /* debut accueil page css*/
+   .main{
+    width: 1140px;
+    margin: 0 auto;
+   }
+   .profi{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:20px;
+   }
+.blocdes{
+    width:30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.blocdes .btndes{
+    height:2rem;
+    background-color: var(---Vert);
+
+}
+.insert{
+    width:100%;
+    margin-bottom: 50px;
+}
+.insert h3{
+    text-align: center;
+}
+.inserForm{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+table{
+	
+    margin: 1rem auto;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border: 1px solid
+    
+    }
+            
+        
+    thead{
+    
+    background-color: var(---Vert);
+    color: white
+    
+    }
+        
+    
+    th,td{padding:8px 0}
+    
+    tbody tr:nth-child(even) {
+        
+    background-color: #ddd
+        
+    }
+        
+    @media only screen and (max-width: 800px) {
+            
+    table, 
+    thead, 
+    tbody, 
+    th, 
+    td, 
+    tr{ 
+        
+    display: block
+        
+    }
+        
+    thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    }
+     
+     
+     
+    td { 
+        
+    position: relative;
+    padding-left: 50%; 
+    white-space: normal;
+    text-align: left
+        
+        }
+     
+    td:before { 
+        
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    font-weight: bold;
+    white-space: nowrap;
+    text-align:left;
+    content: attr(data-title)
+        
+        }
+    }
+    
+    
+    
    
-   /* Fin Music page css*/
+   /* Fin accueil page css*/
+@media screen and (max-width:1000px) {
+    .main{
+        width: 100%;
+        height: auto;
+    }
+    .profi{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+       }
+}
