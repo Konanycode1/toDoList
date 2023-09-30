@@ -1,0 +1,117 @@
+:root{
+    --btnCOlor: #00BF63;
+    ---Vert: #3fe016;
+   ---bg: #ECFDFF;
+   /* Debut Accueil page css*/
+   /* ---bg: black; */
+   }
+   
+   /* a,
+   h1,h2,h3,h4,h5,h6,p{
+       color: #ffffff;
+   }
+   li a {
+       color: white;
+   }
+   li{
+       border-color: white;
+   } */
+   
+   body{
+       background-color:var(---bg) ;
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'Sansita', sans-serif;
+   }
+ 
+   
+   /* Debut Login page css*/
+   .content-login{
+       width: 100%;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+   }
+   .centered{
+       width: 30rem;
+       height: 30rem;
+       background-color: rgb(255, 255, 255);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   }
+   .centered img{
+       width: 10rem;
+       height: 5rem;
+       margin-bottom: 20px;
+   }
+   .centered input{
+       width: 17rem;
+       height: 2rem;
+       margin-bottom: 40px;
+       border-radius: 5px;
+       border: 0.1rem solid gray;
+   }
+   .centered input::placeholder{
+       text-align: center;
+   }
+   .link-d{
+       margin-bottom: 20px;
+   }
+   .link-d a{
+       color: black;
+       margin-right: 20px;
+      
+   }
+   .link-d a:hover{
+       color: black;
+      
+   }
+   .btnLog button{
+       width: 10rem;
+       height: 2.5rem;
+       background-color: var(---Vert);
+       border: none;
+       color: white;
+       border-radius: 5px;
+   }
+   .centeredCreate{
+       width: 30rem;
+       height: 35rem;
+       background-color: rgb(255, 255, 255);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   
+   }
+   .centeredCreate img{
+       width: 10rem;
+       height: 5rem;
+       margin-bottom: 10px;
+   }
+   .centeredCreate input{
+       width: 17rem;
+       height: 2rem;
+       margin-bottom: 20px;
+       border-radius: 5px;
+       border: 0.1rem solid gray;
+   }
+   .centeredCreate input::placeholder{
+       text-align: center;
+   }
+   /* Fin Login page css*/
+   /* Fin Music page css*/
+   /* .music .heade{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 10px;
+   } */
+   
+   /* Fin Music page css*/
