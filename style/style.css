@@ -106,6 +106,9 @@
    .centeredCreate input::placeholder{
        text-align: center;
    }
+   .msg{
+    color: red;
+   }
    /* Fin Login page css*/
    /* Fin Music page css*/
    /* .music .heade{

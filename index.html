@@ -3,27 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion</title>
+    <title>GestProd</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <div class="content-login">
-        <div class="centered">
-            <p>GestProd</p>
-            <input type="text" placeholder="Votre numéro">
-            <input type="password" placeholder="votre mot de passe">
-          
-            <div class="link-d">
-                <a href="./page/create.html">Créer un compte ?</a>
-                <a href="">Mot de passe oublié ?</a>
+        <form action="" class="log">
+            <div class="centered">
+                <p>GestProd</p>
+                <input type="text" id="tel" placeholder="Votre numéro">
+                <input type="password" id="pass" placeholder="votre mot de passe">
+              
+                <div class="link-d">
+                    <a href="./page/create.html">Créer un compte ?</a>
+                    <a href="">Mot de passe oublié ?</a>
+                </div>
+                <div class="btnLog">
+                    <button class="btnsub">se connecter</button>
+                </div>
+                <p class="msg"></p>
             </div>
-            <div class="btnLog">
-                <button>se connecter</button>
-            </div>
-
-        </div>
+        </form>
+       
     </div>
 
-<script src="./script/script.js"></script>
+<script src="./script/connect.js"></script>
 </body>
 </html>
